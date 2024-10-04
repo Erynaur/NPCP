@@ -76,6 +76,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     font-family: Roboto, serif;
+    font-variant: small-caps;
 }
 
 /* Trois blocs sur une ligne */

@@ -115,6 +115,7 @@ body {
 }
 .block3 {
     width: 30%;
+    height: 5rem;
     background-image: url("https://images.pexels.com/photos/6120167/pexels-photo-6120167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-color: #F4F4F4; /* Argenté */
     color: #7B5E9F;

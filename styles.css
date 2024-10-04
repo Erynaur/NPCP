@@ -89,7 +89,7 @@ body {
 
 .block1 {
     width: 30%;
-    background-image: url("https://images.pexels.com/photos/5257553/pexels-photo-5257553.jpeg");
+    background-image: url("https://images.pexels.com/photos/5257553/pexels-photo-5257553.jpeg") opacity: 0.5;
     background-color: #F4F4F4; /* Argenté */
     color: #7B5E9F;
     padding: 20px;

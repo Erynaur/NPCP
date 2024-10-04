@@ -1,11 +1,16 @@
 /* Style général */
 body {
+    height: 100%;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #F4F4F4; /* Couleur argentée claire */
     color: #333;
+}
+/* Conteneur de la page pour occuper tout l'espace disponible */
+body > * {
+    flex: 1; /* Force les autres éléments à occuper l'espace restant avant le footer */
 }
 
 /* En-tête transparent */

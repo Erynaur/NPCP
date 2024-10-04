@@ -6,21 +6,11 @@ html, body {
     box-sizing: border-box;
 }
 
-
-/* Style général */
 body {
     display: flex;
     flex-direction: column;
     background-color: #F4F4F4; /* Couleur argentée claire */
     color: #333;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* Conteneur de la page pour occuper tout l'espace disponible */
-body > * {
-    flex: 1; /* Force les autres éléments à occuper l'espace restant avant le footer */
 }
 
 /* En-tête transparent */
@@ -35,6 +25,24 @@ body > * {
     top: 0;
     width: 100%;
     z-index: 100; /* Pour s'assurer que la navbar reste au-dessus de l'image */
+}
+
+.nav-left button, .nav-right button {
+    background-color: #7B5E9F; /* Violet sombre */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-left button:hover, .nav-right button:hover {
+    background-color: #B39CD0; /* Mauve en hover */
+}
+
+.logo img {
+    height: 50px;
 }
 
 /* Section de l'image avec texte superposé */
@@ -63,19 +71,6 @@ body > * {
     padding: 20px;
     border-radius: 10px;
 }
-.nav-left button, .nav-right button {
-    background-color: transparent;
-    color: white;
-    font-variant: small-caps;
-    border: none;
-    padding: 10px;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-.nav-left button:hover, .nav-right button:hover {
-    background-color: #FFF; /* blanc en hover */
-    color: #B39CD0;
 
 /* Trois blocs sur une ligne */
 .three-blocks {
@@ -93,7 +88,7 @@ body > * {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .block:hover {
@@ -101,7 +96,7 @@ body > * {
     transform: translateY(-10px);
 }
 
-/* Pied de page */
+/* Pied de page collant */
 footer {
     background-color: #7B5E9F; /* Violet sombre */
     color: white;
@@ -110,4 +105,5 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    flex-shrink: 0; /* Assure que le footer reste en bas */
 }

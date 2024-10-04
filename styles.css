@@ -1,12 +1,22 @@
 /* Style général */
+html, body {
+    height: 100%; /* Assure que le body prend toute la hauteur de la page */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style général */
 body {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4; /* Couleur argentée claire */
+    color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F4F4F4; /* Couleur argentée claire */
-    color: #333;
 }
 /* Conteneur de la page pour occuper tout l'espace disponible */
 body > * {

@@ -34,6 +34,7 @@ body {
 
 .nav-left button:hover, .nav-right button:hover {
     background-color: #FFF; /* blanc en hover */
+    color: #B39CD0;
 }
 
 .logo img {

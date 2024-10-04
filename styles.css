@@ -62,9 +62,8 @@ body {
 }
 
 .hero-text {
-    position: absolute;
-    top: 70%;
     position: center;
+    top: 70%;
     transform: translate(-50%, -50%);
     color: #F4F4F4;
     font-size: 1.5em;

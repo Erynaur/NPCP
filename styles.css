@@ -87,7 +87,31 @@ body {
     background-color: #F4F4F4; /* Arrière-plan argenté */
 }
 
-.block {
+.block1 {
+    width: 30%;
+    background-color: #F4F4F4; /* Argenté */
+    color: #7B5E9F;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: Roboto, serif;
+    font-variant: small-caps;
+}
+.block2 {
+    width: 30%;
+    background-color: #F4F4F4; /* Argenté */
+    color: #7B5E9F;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: Roboto, serif;
+    font-variant: small-caps;
+}
+.block3 {
     width: 30%;
     background-color: #F4F4F4; /* Argenté */
     color: #7B5E9F;

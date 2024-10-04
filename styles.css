@@ -28,7 +28,7 @@ body {
 }
 
 .nav-left button, .nav-right button {
-    background-color: traansparent; 
+    background-color: transparent; 
     color: white;
     border: none;
     padding: 10px;

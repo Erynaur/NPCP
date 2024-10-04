@@ -23,21 +23,21 @@ body {
 }
 
 .nav-left button, .nav-right button {
-    background-color: #7B5E9F; /* Violet sombre */
+    background-color: transparent;
     color: white;
     border: none;
     padding: 10px;
     margin: 0 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .nav-left button:hover, .nav-right button:hover {
-    background-color: #B39CD0; /* Mauve en hover */
+    background-color: #FFF; /* blanc en hover */
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
 }
 
 /* Section de l'image avec texte superposé */

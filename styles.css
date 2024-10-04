@@ -42,7 +42,7 @@ body {
 
 .nav-left button:hover, .nav-right button:hover {
     background-color: #F4F4F4; /* Argenté en hover */
-    color: #B39CD0; /* mauve en hover */
+    color: #7B5E9F; /* violet foncé en hover */
 }
 
 .logo img {

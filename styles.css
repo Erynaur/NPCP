@@ -147,10 +147,10 @@ body {
 footer {
     background-color: #2b1d35; /* Violet sombre */
     color: black;
-    text-align: center;
+    text-align: center center;
     padding: 20px;
     position: absolute;
     bottom: 0;
-    height: 1.2rem;
+    height: 1rem;
     width: 100%;
 }

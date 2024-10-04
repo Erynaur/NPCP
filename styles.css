@@ -30,6 +30,7 @@ body > * {
 .nav-left button, .nav-right button {
     background-color: transparent;
     color: white;
+    font-variant: small-caps;
     border: none;
     padding: 10px;
     margin: 0 5px;

@@ -70,12 +70,11 @@ body {
     transform: translate(-60%, -50%);
     color: #F4F4F4;
     font-size: 1.5em;
-    font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     background-color: transparent; /* pas de BG color */
     padding: 20px;
     border-radius: 10px;
-    font-family: Roboto, serif;
+    font-family: Roboto;
     font-variant: small-caps;
     text-overflow: clip;
 }

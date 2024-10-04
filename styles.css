@@ -28,7 +28,7 @@ body {
 }
 
 .nav-left button, .nav-right button {
-    background-color: #7B5E9F; /* Violet sombre */
+    background-color: traansparent; 
     color: white;
     border: none;
     padding: 10px;
@@ -40,7 +40,7 @@ body {
 }
 
 .nav-left button:hover, .nav-right button:hover {
-    background-color: #B39CD0; /* Mauve en hover */
+    background-color: #F4F4F4; /* Argenté en hover */
 }
 
 .logo img {
@@ -63,14 +63,14 @@ body {
 
 .hero-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 30%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2.5em;
+    color: #F4F4F4;
+    font-size: 1.5em;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    background-color: rgba(123, 94, 159, 0.5); /* Violet sombre en transparence */
+    background-color: transparent; /* pas de BG color */
     padding: 20px;
     border-radius: 10px;
 }

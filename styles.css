@@ -63,6 +63,19 @@ body > * {
     padding: 20px;
     border-radius: 10px;
 }
+.nav-left button, .nav-right button {
+    background-color: transparent;
+    color: white;
+    font-variant: small-caps;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.nav-left button:hover, .nav-right button:hover {
+    background-color: #FFF; /* blanc en hover */
+    color: #B39CD0;
 
 /* Trois blocs sur une ligne */
 .three-blocks {

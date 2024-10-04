@@ -101,7 +101,6 @@ body {
 }
 
 .block:hover {
-    background-color: #B39CD0; /* Mauve en hover */
     transform: translateY(-10px);
 }
 

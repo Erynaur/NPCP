@@ -82,8 +82,8 @@ body {
 
 .block {
     width: 30%;
-    background-color: #7B5E9F; /* Violet sombre */
-    color: white;
+    background-color: #F4F4F4; /* Argenté */
+    color: #7B5E9F;
     padding: 20px;
     text-align: center;
     border-radius: 10px;

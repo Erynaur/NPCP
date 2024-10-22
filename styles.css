@@ -58,9 +58,13 @@ body {
 }
 
 .hero-image {
+    position: relative;
     width: 100%;
-    height: 60vh; /* L'image occupe maintenant 60% de la hauteur de la fenêtre */
-    object-fit: cover; /* Assure que l'image couvre tout l'espace disponible sans se déformer */
+    height: 100vh; /* L'image occupe maintenant 100% de la hauteur de la fenêtre */
+    background-image: url('https://imagesend.fr/uploads/20241022/92df67b85b9f60629afd048c3976619bfd9140d8.jpg');
+    background-size: cover; /* Assure que l'image couvre tout l'espace disponible sans se déformer */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-text {

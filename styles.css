@@ -58,6 +58,10 @@ h2 {
     font-weight: 400;
     color: #2e1141; /* Ou toute autre couleur que tu souhaites */
 }
+td {
+    padding: 30px; /* Ajoute 30px d'espace autour du texte dans chaque cellule */
+}
+
 
 .main-content {
     /* display: flex;*/

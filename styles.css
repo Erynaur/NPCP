@@ -61,7 +61,9 @@ h2 {
 td {
     padding: 30px; /* Ajoute 30px d'espace autour du texte dans chaque cellule */
 }
-
+p {
+    text-align: justify;
+}
 
 .main-content {
     /* display: flex;*/

@@ -55,6 +55,7 @@
     padding: 20px;
     border-radius: 10px;
     color: white;
+    padding-bottom: 50px; /* Ajuster la valeur selon la hauteur du footer */
 }
 
 .text, .image-container {
@@ -78,9 +79,13 @@
 
 /* Pied de page */
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #f4f4f4;
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
+    font-size: 0.9rem;
 }
 
 footer p a {

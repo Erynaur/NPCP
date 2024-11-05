@@ -48,8 +48,14 @@
 /* Contenu principal */
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-weight: 700;
+    color: #2e1141; /* Ou toute autre couleur que tu souhaites */
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
     color: #2e1141; /* Ou toute autre couleur que tu souhaites */
 }
 

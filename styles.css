@@ -75,7 +75,7 @@ p {
     border-radius: 0px;
     color: white;
     padding-bottom: 0px; /* Ajuster la valeur selon la hauteur du footer */
-    min-height: 90vh;
+    min-height: 95vh;
     margin: 0;
 }
 

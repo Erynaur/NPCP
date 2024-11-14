@@ -67,16 +67,16 @@ p {
 
 .main-content {
     /* display: flex;*/
+    ax-width: 1200px;  /* Limite la largeur du contenu */
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
     background-image: linear-gradient(135deg, #2e1141, #F4F4F4);
-    padding: 20px;
+    padding: 0 200px;    /* Ajoute un peu d'espace à gauche et à droite */
     border-radius: 0px;
     color: white;
     padding-bottom: 0px; /* Ajuster la valeur selon la hauteur du footer */
     min-height: 95vh;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .text, .image-container {

@@ -98,6 +98,17 @@ p {
     border-radius: 5px;
 }
 
+.responsive-table {
+    width: 80%;            /* Limite la largeur du tableau à 80% de l'écran */
+    margin: 0 auto;        /* Centre le tableau horizontalement */
+    border-collapse: collapse;  /* Pour que les bordures ne soient pas doublées */
+}
+@media (max-width: 600px) {
+    .responsive-table {
+        width: 100%;   /* Passe le tableau à 100% sur les petits écrans */
+    }
+}
+
 /* Formulaire de contact*/
 #my-form {
     display: flex;

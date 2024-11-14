@@ -1,175 +1,222 @@
-/* Styles généraux */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* Style pour la barre de navigation */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    padding: 0 20px;
-    width: 100%;
-}
-
-/* Conteneur des boutons pour les centrer */
-.nav-links {
-    align-items: center;
-    display: flex;
-    gap: 20px;
-    margin: 0 auto;
-}
-
-/* Style pour les boutons */
-.navbar a {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-    padding: 10px 15px;
-    text-transform: uppercase;
-    background: transparent;
-    transition: background-color 0.3s;
-}
-
-.navbar a:hover {
-    background-color: #F4F4F4;
-}
-
-/* Style pour le logo */
-.logo {
-    margin-right: auto;
-}
-
-
-/* Contenu principal */
-
-h1 {
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
-    color: #2e1141; /* Ou toute autre couleur que tu souhaites */
-}
-
-h2 {
-    font-family: 'Cinzel', serif;
-    font-weight: 400;
-    color: #2e1141; /* Ou toute autre couleur que tu souhaites */
-}
-td {
-    padding: 30px; /* Ajoute 30px d'espace autour du texte dans chaque cellule */
-}
-p {
-    text-align: justify;
-}
-
-.main-content {
-    /* display: flex;*/
-    ax-width: 1200px;  /* Limite la largeur du contenu */
-    justify-content: space-around;
-    align-items: center;
-    background-image: linear-gradient(135deg, #2e1141, #F4F4F4);
-    padding: 0 200px;    /* Ajoute un peu d'espace à gauche et à droite */
-    border-radius: 0px;
-    color: white;
-    padding-bottom: 0px; /* Ajuster la valeur selon la hauteur du footer */
-    min-height: 95vh;
-    margin: 0 auto;
-}
-
-.text, .image-container {
-    width: 45%;
-}
-
-.image-container img {
-    width: 50%;
-    height: auto;
+/* Page d'accueil */
+.hero {
     position: relative;
+    height: 500px;
+    background-color: #8e8e8e;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-.overlay-text {
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     position: absolute;
-    top: 40%;
-    left: 70%;
-    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    left: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #5e2a8b;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Section "Nous connaître" */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.image-wrapper {
+    width: 100%;
+    max-width: 300px;
+    flex: 1;
+}
+
+.about-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.building-image {
+    object-fit: cover;
+    height: 200px;
+}
+
+footer {
+    background-color: #5e2a8b;
+    text-align: center;
     padding: 10px;
+    color: white;
+}
+
+
+/* Section "Nos services" */
+.services {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
     border-radius: 5px;
 }
 
-.responsive-table {
-    width: 80%;            /* Limite la largeur du tableau à 80% de l'écran */
-    margin: 0 auto;        /* Centre le tableau horizontalement */
-    border-collapse: collapse;  /* Pour que les bordures ne soient pas doublées */
-}
-@media (max-width: 600px) {
-    .responsive-table {
-        width: 100%;   /* Passe le tableau à 100% sur les petits écrans */
-    }
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
-/* Formulaire de contact*/
-#my-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px; /* Ajuste la largeur du formulaire */
-    margin: 0 auto; /* Centre le formulaire */
+.service p {
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
-#my-form label {
-    margin-top: 10px; /* Espace au-dessus de chaque label */
-    font-weight: bold;
+
+/* Page de Contact */
+.contact {
+    padding: 40px 20px;
 }
 
-#my-form input,
-#my-form textarea {
-    margin-top: 5px; /* Espace entre le label et l'input */
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%; /* S'ajuste à la largeur du conteneur */
-    box-sizing: border-box;
+.contact-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-bottom: 20px;
 }
 
-#my-form textarea {
-    resize: vertical; /* Permet de redimensionner verticalement */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
 }
 
-#my-form button {
-    margin-top: 15px;
+form input, form textarea {
     padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #007bff;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #5e2a8b;
+    color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-#my-form button:hover {
-    background-color: #0056b3;
+/* Styles pour la barre de navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5e2a8b; /* Violet */
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
 
-/* Pied de page */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: white; /* Le texte devient blanc quand on est sur la page dédiée */
+}
+
+.logo-img {
+    transition: filter 0.3s ease;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Si l'utilisateur est sur la page d'accueil, mettre un effet sur le logo */
+body.home .logo-img {
+    filter: brightness(1.2); /* Le logo s'éclaire lorsque nous sommes sur l'accueil */
+}
+
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f4f4f4;
-    padding: 10px 0;
+    background-color: #5e2a8b;
     text-align: center;
-    font-size: 0.9rem;
+    padding: 10px;
+    color: white;
 }
 
-footer p a {
-    color: black;
-    text-decoration: underline;
-}
-
-/* Mise en page pour chaque section */
-.about-us, .services, .contact {
-    padding: 20px;
+/* On applique un style global pour la page active */
+body.home header nav ul li a.active {
+    background-color: white;
+    color: #5e2a8b; /* Le bouton devient blanc sur la page active */
 }
